@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Montserrat:wght@500&display=swap');
+
+.subJudul {
+    font-family: 'Barlow', sans-serif;
+    color: #7A0BC0;
+}
+
+.judul {
+    font-family: 'Montserrat', sans-serif;
+    color: #270082;
+}
