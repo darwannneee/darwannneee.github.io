@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@200&family=Barlow:wght@200&family=Montserrat:wght@500&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@200&family=Barlow:wght@200&family=Montserrat:wght@500&family=Roboto+Slab&family=Source+Sans+Pro&display=swap');
 
 .subJudul {
     font-family: 'Barlow', sans-serif;
@@ -25,4 +25,8 @@
 .Judul2 {
     font-family: 'Roboto Slab', serif;
    color: #270082;
+}
+
+.judulPortofolio {
+    font-family: 'Source Sans Pro', sans-serif;
 }
