@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@200&family=Barlow:wght@200&family=Montserrat:wght@500&family=Roboto+Slab&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@200&family=Barlow:wght@200&family=Montserrat:wght@500&family=Roboto+Slab&family=Source+Sans+Pro&display=swap&family=Fascinate&display=swap');
 
 .subJudul {
     font-family: 'Barlow', sans-serif;
@@ -29,4 +29,8 @@
 
 .judulPortofolio {
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.judulSkill {
+    font-family: 'Montserrat', sans-serif;
 }
