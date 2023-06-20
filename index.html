@@ -15,7 +15,7 @@
 <body>
 
     <!-- Main -->
-    <div class="mx-8 mt-12 md:grid md:grid-cols-2 md:mt-20">
+    <div class="mx-8 mt-12 md:grid md:grid-cols-2 md:mt-20 md:ml-20">
         <div>
             <h1 class="subJudul text-2xl md:text-4xl">| Web Developer</h1>
             <h1 class="judul text-6xl md:text-8xl">Hi, Im <br> Darwan</h1>
@@ -45,29 +45,32 @@
     <!-- Skill -->
     <div class="bg-indigo-50">
         <div class="mx-8 mt-16">
-            <h1 class="judul text-2xl underline underline-offset-8 pt-11">What Can i do?</h1>
+            <h1 class="judul text-2xl underline underline-offset-8 pt-11 md:text-4xl">What Can i do?</h1>
             <p class="keterangan pt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias atque vitae odio ea! Veritatis non, illo unde nesciunt quisquam quidem ut temporibus cumque, cum ratione eligendi possimus pariatur, ipsam praesentium.</p>
 
-            <!-- Card Skill HTML -->
-            <div class="w-56 h-60 bg-white mt-14 ml-14 border-2 rounded-lg border-indigo-500 shadow-md hover:shadow-black">
-               <img src="src/img/html.png" alt="" class="w-24 h-24 ml-16 mt-10">
-               <p class="judul text-xl text-center mt-2">HTML</p>
-               <p class="keterangan text-center text-sm mt-1">Mahir.</p>
+            <div class="md:grid md:grid-cols-5">
+                <!-- Card Skill HTML -->
+                <div class="w-56 h-60 bg-white mt-14 ml-14 border-2 rounded-lg border-indigo-500 shadow-md hover:shadow-black">
+                    <img src="src/img/html.png" alt="" class="w-24 h-24 ml-16 mt-10">
+                    <p class="judul text-xl text-center mt-2">HTML</p>
+                    <p class="keterangan text-center text-sm mt-1">Mahir.</p>
+                </div>
+    
+                <!-- Card Skill CSS -->
+                <div class="w-56 h-60 bg-white mt-14 ml-14 border-2 rounded-lg border-indigo-500 shadow-md hover:shadow-black">
+                    <img src="src/img/css-3.png" alt="" class="w-24 h-24 ml-16 mt-10">
+                    <p class="judul text-xl text-center mt-2">CSS</p>
+                    <p class="keterangan text-center text-sm mt-1">Mahir.</p>
+                </div>
+    
+                <!-- Card Skill CSS -->
+                <div class="w-56 h-60 bg-white mt-14 ml-14 border-2 rounded-lg border-indigo-500 shadow-md hover:shadow-black">
+                    <img src="src/img/php.png" alt="" class="w-24 h-24 ml-16 mt-10">
+                    <p class="judul text-xl text-center mt-2">PHP</p>
+                    <p class="keterangan text-center text-sm mt-1">Pemula.</p>
+                </div>
             </div>
-
-            <!-- Card Skill CSS -->
-            <div class="w-56 h-60 bg-white mt-14 ml-14 border-2 rounded-lg border-indigo-500 shadow-md hover:shadow-black">
-                <img src="src/img/css-3.png" alt="" class="w-24 h-24 ml-16 mt-10">
-                <p class="judul text-xl text-center mt-2">CSS</p>
-                <p class="keterangan text-center text-sm mt-1">Mahir.</p>
-             </div>
-
-             <!-- Card Skill CSS -->
-            <div class="w-56 h-60 bg-white mt-14 ml-14 border-2 rounded-lg border-indigo-500 shadow-md hover:shadow-black">
-                <img src="src/img/php.png" alt="" class="w-24 h-24 ml-16 mt-10">
-                <p class="judul text-xl text-center mt-2">PHP</p>
-                <p class="keterangan text-center text-sm mt-1">Pemula.</p>
-             </div>
+            
 
              <div class="pt-16">
 
@@ -80,56 +83,60 @@
         <h1 class="judul text-2xl underline underline-offset-8 pt-11">Latest Project.</h1>
         <p class="keterangan pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias atque vitae odio ea! Veritatis non, illo unde nesciunt quisquam quidem ut temporibus cumque.</p>
 
-        <!-- Card Project -->
-        <div class="bg-indigo-50 mt-8 rounded-lg">
-            <div class="h-full w-80 pt-4 ml-6 ">
-                <img src="src/img/logo/logo-cinema.png" alt="" class="w-4 h-10">
-                <p class="keterangan text-sm mt-6">Web Developer</p>
-                <p class="judul text-xl mb-6">Cinema Trophy</p>
-
-                <div class="mt-4 flex flex-wrap">
-                   <img src="https://cdn-icons-png.flaticon.com/512/833/833593.png" alt="" width="20">
-                   <small class="judul ml-2">Start</small>
-                   <small class="judul">
-                    <b>: 13 Jan</b>
-                   </small>
-
-                   <img src="https://cdn-icons-png.flaticon.com/512/566/566958.png" alt="" width="20" class="ml-6">
-                   <small class="judul ml-2">End</small>
-                   <small class="judul">
-                    <b>: 13 Jan</b>
-                   </small>
-
-                   
-                </div>
-                <button class="border-2 border-indigo-400 bg-white text-black rounded-lg w-20 h-7 mt-6">More</button>
-            </div>
-        </div>
+        <!-- Grid -->
+            <div class="md:grid md:grid-cols-3">
+                <div class="bg-indigo-50 mt-8 rounded-lg md:w-72">
+                    <div class="h-full w-80 pt-4 ml-6 ">
+                        <img src="src/img/logo/logo-cinema.png" alt="" class="w-4 h-10">
+                        <p class="keterangan text-sm mt-6">Web Developer</p>
+                        <p class="judul text-xl mb-6">Cinema Trophy</p>
         
-        <div class="bg-indigo-50 mt-8 rounded-lg">
-            <div class="h-full w-80 pt-4 ml-6 ">
-                <img src="https://erahajj-storage.akselera.co.id/1643787604-538735/1649788181_EIU38t6W9wdZdVsTj7Z9DgSqIsTsn0cmDcIQNaIV.png" alt="" class="w-4 h-10">
-                <p class="keterangan text-sm mt-6">Web Developer</p>
-                <p class="judul text-xl mb-6">Sanema Tour</p>
-
-                <div class="mt-4 flex flex-wrap">
-                   <img src="https://cdn-icons-png.flaticon.com/512/833/833593.png" alt="" width="15">
-                   <small class="judul ml-2">Start</small>
-                   <small class="judul">
-                    <b>: 13 Jan</b>
-                   </small>
-
-                   <img src="https://cdn-icons-png.flaticon.com/512/566/566958.png" alt="" width="20" class="ml-6">
-                   <small class="judul ml-2">End</small>
-                   <small class="judul">
-                    <b>: 13 Jan</b>
-                   </small>
-
-
+                        <div class="mt-4 flex flex-wrap">
+                        <img src="https://cdn-icons-png.flaticon.com/512/833/833593.png" alt="" width="20">
+                        <small class="judul ml-2">Start</small>
+                        <small class="judul">
+                            <b>: 13 Jan</b>
+                        </small>
+        
+                        <img src="https://cdn-icons-png.flaticon.com/512/566/566958.png" alt="" width="20" class="ml-6">
+                        <small class="judul ml-2">End</small>
+                        <small class="judul">
+                            <b>: 13 Jan</b>
+                        </small>
+        
+                        
+                        </div>
+                        <button class="border-2 border-indigo-400 bg-white text-black rounded-lg w-20 h-7 mt-6">More</button>
+                    </div>
                 </div>
-                <button class="border-2 border-indigo-400 bg-white text-black rounded-lg w-20 h-7 mt-6">More</button>
+                
+                <div class="bg-indigo-50 mt-8 rounded-lg md:w-72">
+                    <div class="h-full w-80 pt-4 ml-6 ">
+                        <img src="https://erahajj-storage.akselera.co.id/1643787604-538735/1649788181_EIU38t6W9wdZdVsTj7Z9DgSqIsTsn0cmDcIQNaIV.png" alt="" class="w-4 h-10">
+                        <p class="keterangan text-sm mt-6">Web Developer</p>
+                        <p class="judul text-xl mb-6">Sanema Tour</p>
+        
+                        <div class="mt-4 flex flex-wrap">
+                        <img src="https://cdn-icons-png.flaticon.com/512/833/833593.png" alt="" width="15">
+                        <small class="judul ml-2">Start</small>
+                        <small class="judul">
+                            <b>: 13 Jan</b>
+                        </small>
+        
+                        <img src="https://cdn-icons-png.flaticon.com/512/566/566958.png" alt="" width="20" class="ml-6">
+                        <small class="judul ml-2">End</small>
+                        <small class="judul">
+                            <b>: 13 Jan</b>
+                        </small>
+        
+        
+                        </div>
+                        <button class="border-2 border-indigo-400 bg-white text-black rounded-lg w-20 h-7 mt-6">More</button>
+                    </div>
+                </div>
             </div>
-        </div>
+        <!-- Card Project -->
+      
     </div>
 
     <!-- Footer -->
