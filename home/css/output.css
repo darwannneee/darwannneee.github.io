@@ -556,6 +556,11 @@ video {
   margin-right: 2rem;
 }
 
+.mx-20 {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
 .mt-12 {
   margin-top: 3rem;
 }
@@ -624,8 +629,48 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.ml-40 {
-  margin-left: 10rem;
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-12 {
+  margin-left: 3rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.ml-0 {
+  margin-left: 0px;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
 }
 
 .flex {
@@ -660,6 +705,10 @@ video {
   height: 1.75rem;
 }
 
+.h-80 {
+  height: 20rem;
+}
+
 .w-28 {
   width: 7rem;
 }
@@ -682,6 +731,38 @@ video {
 
 .w-20 {
   width: 5rem;
+}
+
+.w-14 {
+  width: 3.5rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-9 {
+  width: 2.25rem;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-wrap {
@@ -740,8 +821,20 @@ video {
   padding-top: 2.5rem;
 }
 
+.pr-3 {
+  padding-right: 0.75rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .text-2xl {
@@ -815,24 +908,12 @@ video {
     margin-top: 5rem;
   }
 
-  .md\:mr-24 {
-    margin-right: 6rem;
-  }
-
-  .md\:mt-40 {
-    margin-top: 10rem;
-  }
-
-  .md\:mt-0 {
-    margin-top: 0px;
-  }
-
-  .md\:ml-40 {
-    margin-left: 10rem;
-  }
-
   .md\:ml-20 {
     margin-left: 5rem;
+  }
+
+  .md\:mr-24 {
+    margin-right: 6rem;
   }
 
   .md\:grid {
@@ -843,48 +924,12 @@ video {
     height: 18rem;
   }
 
-  .md\:h-40 {
-    height: 10rem;
-  }
-
-  .md\:h-20 {
-    height: 5rem;
-  }
-
-  .md\:max-h-64 {
-    max-height: 16rem;
-  }
-
-  .md\:max-h-20 {
-    max-height: 5rem;
-  }
-
   .md\:w-40 {
     width: 10rem;
   }
 
   .md\:w-72 {
     width: 18rem;
-  }
-
-  .md\:w-28 {
-    width: 7rem;
-  }
-
-  .md\:w-44 {
-    width: 11rem;
-  }
-
-  .md\:w-16 {
-    width: 4rem;
-  }
-
-  .md\:w-full {
-    width: 100%;
-  }
-
-  .md\:grid-flow-col {
-    grid-auto-flow: column;
   }
 
   .md\:grid-cols-2 {
